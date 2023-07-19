@@ -15,10 +15,8 @@ import Footer from './components/Footer'
 
 const App = () => {
  return(
-  <div>
     <>
     <NavBar/>
-    <div>
     <Loading/>
     <Numbers/>
     <AboutUs/>
@@ -30,7 +28,6 @@ const App = () => {
     <Baked/>
     <Subscribe/>
     <Footer/>
-    </div>
     </>
   </div>
  )

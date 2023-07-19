@@ -15,7 +15,7 @@ const Explore = () => {
       </div>
       <div className='row'>
          <div className='col-md-4'>
-         <Card >
+         <Card style={{ width: '23rem' }}>
             <Card.Img variant="top" src={amr1} />
             <Card.Body>
             <Card.Title>Rainbow Vegetable Sandwich</Card.Title>
@@ -29,7 +29,7 @@ const Explore = () => {
          </Card>
          </div>
          <div className='col-md-4'>
-         <Card >
+         <Card style={{ width: '23rem' }}>
             <Card.Img variant="top" src={amr2} />
             <Card.Body>
             <Card.Title>Vegetarian Burger</Card.Title>
@@ -43,7 +43,7 @@ const Explore = () => {
          </Card>
          </div>
          <div className='col-md-4'>
-         <Card >
+         <Card style={{ width: '23rem' }}>
             <Card.Img variant="top" src={amr3} />
             <Card.Body>
             <Card.Title>Raspberry Stuffed French Toast</Card.Title>

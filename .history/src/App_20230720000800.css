@@ -434,7 +434,7 @@ text-align: start;
 }
 @media (max-width:676px) {
    .freq .row{
-text-align: center !important;
+text-align: ;
       }
 }
 /* end freq */

@@ -19,6 +19,8 @@ const App = () => {
     <>
     <NavBar/>
     <div>
+      
+    </div>
     <Loading/>
     <Numbers/>
     <AboutUs/>
@@ -30,7 +32,6 @@ const App = () => {
     <Baked/>
     <Subscribe/>
     <Footer/>
-    </div>
     </>
   </div>
  )

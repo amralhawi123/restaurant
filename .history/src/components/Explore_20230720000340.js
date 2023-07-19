@@ -43,7 +43,7 @@ const Explore = () => {
          </Card>
          </div>
          <div className='col-md-4'>
-         <Card >
+         <Card style={{ width: '23rem' }}>
             <Card.Img variant="top" src={amr3} />
             <Card.Body>
             <Card.Title>Raspberry Stuffed French Toast</Card.Title>

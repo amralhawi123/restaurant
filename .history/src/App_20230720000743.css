@@ -433,8 +433,9 @@ text-align: start;
    font-size: 18px;
 }
 @media (max-width:676px) {
-   .freq .row{
-text-align: center !important;
+   .freq .container{
+      display: flex;
+flex-direction: column;
       }
 }
 /* end freq */

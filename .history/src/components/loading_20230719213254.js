@@ -5,7 +5,7 @@ const Loading = () => {
     <header id='home'>
       <div className='container' >
       <div className='row'>
-      <div className='col-md-6 land'>
+      <div className='col-md-6'>
          <h2>Good food choices are good investments.</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</p>
          <button type="button" class="btn bt1 btn-primary">Order Now</button>

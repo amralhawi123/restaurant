@@ -40,10 +40,8 @@ nav a{
    border: 2px solid #a82d49 !important;
 }
 
-@media (max-width:676px) {
-   .numb{
-      display: none !important;
-   }
+@media screen {
+   
 }
 .numb:hover{
    background-color:white !important;
@@ -74,28 +72,10 @@ header h2{
    width: 80%;
    font-weight: bold;
 }
-
-
 header p{
    color: #888;
    margin: 20px 0;
    font-size: 16px;
-}
-@media (max-width:676px) {
-   header{
-      text-align: center !important;
-   }
-   header h2{
-      font-size: 40px !important;
-   }
-   header p{
-      width: 80% !important;
-   }
-   header .land{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
 }
 header .btn{
    margin: 10px;
@@ -204,7 +184,6 @@ section h6{
    align-items:center;
    justify-content: center;
    margin:140px 0px 0;
-   text-align: center;
 }
 
 .Foodimg .row{
@@ -265,12 +244,6 @@ section h6{
 text-align: left;
 margin:130px 0px 0;
 }
-
-@media (max-width:676px) {
-   .ourstory{
-      text-align: center !important;
-   }
-}
 .ourstory h2{
    font-size: 48px;
    color: #611325;
@@ -302,6 +275,18 @@ margin:130px 0px 0;
    margin: 0px 0 40px 0;
    font-size: 20px;
    
+}
+
+@media (max-width:676px) {
+   .explore .card{
+      width: 20rem !important;
+   }
+}
+
+@media (max-width:40px) {
+   .explore .card{
+      width: 18rem !important;
+   }
 }
 
 .explore span:first-of-type{
@@ -431,11 +416,6 @@ text-align: start;
 .freq p{
    color: #888;
    font-size: 18px;
-}
-@media (max-width:676px) {
-   .freq .row{
-text-align: center !important;
-      }
 }
 /* end freq */
 
@@ -574,10 +554,10 @@ margin: 50px 0;
    background-color:#a82d49;
    color:white;
    text-align: center;
-   padding: 20px;
+   padding: 30px;
    margin: 130px 0 0;
 }
 .footer h3{
-font-size: 12px;
+font-size: 20px;
 }
 /* end footer */

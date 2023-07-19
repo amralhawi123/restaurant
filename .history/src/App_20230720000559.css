@@ -432,11 +432,6 @@ text-align: start;
    color: #888;
    font-size: 18px;
 }
-@media (max-width:676px) {
-   .freq .row{
-text-align: center !important;
-      }
-}
 /* end freq */
 
 
@@ -578,6 +573,6 @@ margin: 50px 0;
    margin: 130px 0 0;
 }
 .footer h3{
-font-size: 12px;
+font-size: 10px;
 }
 /* end footer */

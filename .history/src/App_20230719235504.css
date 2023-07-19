@@ -266,10 +266,8 @@ text-align: left;
 margin:130px 0px 0;
 }
 
-@media (max-width:676px) {
-   .ourstory{
-      text-align: center !important;
-   }
+@media (max-width) {
+   
 }
 .ourstory h2{
    font-size: 48px;
@@ -302,6 +300,18 @@ margin:130px 0px 0;
    margin: 0px 0 40px 0;
    font-size: 20px;
    
+}
+
+@media (max-width:676px) {
+   .explore .card{
+      width: 20rem !important;
+   }
+}
+
+@media (max-width:40px) {
+   .explore .card{
+      width: 18rem !important;
+   }
 }
 
 .explore span:first-of-type{
@@ -431,11 +441,6 @@ text-align: start;
 .freq p{
    color: #888;
    font-size: 18px;
-}
-@media (max-width:676px) {
-   .freq .row{
-text-align: center !important;
-      }
 }
 /* end freq */
 
@@ -574,10 +579,10 @@ margin: 50px 0;
    background-color:#a82d49;
    color:white;
    text-align: center;
-   padding: 20px;
+   padding: 30px;
    margin: 130px 0 0;
 }
 .footer h3{
-font-size: 12px;
+font-size: 20px;
 }
 /* end footer */
