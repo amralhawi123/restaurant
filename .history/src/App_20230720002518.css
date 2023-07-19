@@ -312,11 +312,7 @@ margin:130px 0px 0;
    
 }
 
-.explore .card-body{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
+.e
 .explore span:first-of-type{
    color:#611325;
    font-size: 30px;
@@ -597,6 +593,6 @@ margin: 50px 0;
    margin: 110px 0 0;
 }
 .footer h3{
-font-size: 15px;
+font-size: 12px;
 }
 /* end footer */

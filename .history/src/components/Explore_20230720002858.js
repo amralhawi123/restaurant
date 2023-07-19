@@ -55,6 +55,7 @@ const Explore = () => {
             Time: 10 - 15 Minutes | Serves: 1
             </Card.Text>
             <div>
+
             <span>$12.50</span>
             <span> $13.20</span>
             </div>

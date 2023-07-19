@@ -39,6 +39,7 @@ const Explore = () => {
             Time: 30 - 45 Minutes | Serves: 1
             </Card.Text>
             <div>
+
             <span>$9.20</span>
             <span> $10.50</span>
             </div>
@@ -54,10 +55,8 @@ const Explore = () => {
             <Card.Text>
             Time: 10 - 15 Minutes | Serves: 1
             </Card.Text>
-            <div>
             <span>$12.50</span>
             <span> $13.20</span>
-            </div>
             <Button variant="primary">Order Now</Button>
             </Card.Body>
          </Card>

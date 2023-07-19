@@ -204,12 +204,11 @@ section h6{
    align-items:center;
    justify-content: center;
    margin:140px 0px 0;
+   /* text-align: center; */
 }
 
-@media (max-width:676px) {
-   .Foodimg{
-      text-align: center !important;
-   }
+@media (max-width) {
+   
 }
 .Foodimg .row{
    display: flex;
@@ -293,11 +292,7 @@ margin:130px 0px 0;
    margin:120px 0px 0;
    text-align: center;
 }
-/* @media (max-width:676px) {
-   .explore{
-      text-align: center;
-   }
-} */
+
 .explore h3{
    font-size: 48px;
    color: #611325;
@@ -312,11 +307,6 @@ margin:130px 0px 0;
    
 }
 
-.explore .card-body{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
 .explore span:first-of-type{
    color:#611325;
    font-size: 30px;
@@ -337,7 +327,6 @@ margin:130px 0px 0;
    background-color:#a82d49 !important;
    border:3px solid #a82d49 !important;
    margin: 20px 0 10px;
-   display: block;
 }
 
 .explore Button:hover{
@@ -597,6 +586,6 @@ margin: 50px 0;
    margin: 110px 0 0;
 }
 .footer h3{
-font-size: 15px;
+font-size: 12px;
 }
 /* end footer */
